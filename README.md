@@ -9,10 +9,48 @@ Quick setup
 
 1. Create a Python virtual environment and install dependencies:
 
-   - python3 -m venv .venv
-   - source .venv/bin/activate
-   - pip install -r requirements.txt
-     (requirements should include pandas, requests, python-dotenv, etc.)
+- Install virtualenv if not already installed:
+
+  ```
+  pip install --user virtualenv
+  ```
+
+- Create the virtual environment using virtualenv:
+
+  ```
+  python3 -m virtualenv .venv
+  ```
+
+- Activate the virtual environment:
+
+  - macOS / Linux:
+    ```
+    source .venv/bin/activate
+    ```
+  - Windows (PowerShell):
+    ```
+    .venv\Scripts\Activate.ps1
+    ```
+  - Windows (cmd):
+    ```
+    .venv\Scripts\activate.bat
+    ```
+
+- Install dependencies:
+
+  ```
+  pip install -r requirements.txt
+  ```
+
+- requirements.txt should include (examples):
+
+  ```
+  pandas
+  requests
+  python-dotenv
+  ```
+
+- Recommendation: pin versions in requirements.txt for reproducibility (e.g., pandas==1.5.3).
 
 2. Create the data directory
 

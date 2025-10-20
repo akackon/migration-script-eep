@@ -11,7 +11,7 @@ Created a comprehensive Jupyter notebook to migrate campaign data from the CSV b
 ## Requirements
 
 - **Source Data**: `data/All Product Data Back Up 070825.csv`
-- **Source Columns**: 
+- **Source Columns**:
   - `EEP Campaign Name`
   - `EEP Campaign Launch Date`
 - **Target API**: `/api/campaigns` endpoint
@@ -22,6 +22,7 @@ Created a comprehensive Jupyter notebook to migrate campaign data from the CSV b
 ## Implementation Details
 
 ### Process Flow
+
 1. Load CSV data (only relevant columns for efficiency)
 2. Extract unique campaigns by grouping on campaign name
 3. Clean data (remove nulls and empty values)
@@ -31,6 +32,7 @@ Created a comprehensive Jupyter notebook to migrate campaign data from the CSV b
 7. Log results and generate summary report
 
 ### Key Features
+
 - **Date Handling**: Robust date parsing to handle various formats and convert to ISO 8601
 - **Error Handling**: Comprehensive error handling for network issues, data inconsistencies, and API errors
 - **Logging**: Detailed logging to track progress and issues
@@ -39,6 +41,7 @@ Created a comprehensive Jupyter notebook to migrate campaign data from the CSV b
 - **Result Tracking**: Detailed success/failure reporting with campaign names
 
 ### Technical Approach
+
 - Used pandas for efficient data manipulation
 - Used requests library for API calls
 - Implemented proper authentication with Bearer token
@@ -48,6 +51,7 @@ Created a comprehensive Jupyter notebook to migrate campaign data from the CSV b
 ## Results Expected
 
 The notebook will:
+
 - Identify all unique campaigns from the source data
 - Convert launch dates to proper format
 - Upload each campaign to the Strapi database

@@ -214,3 +214,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python Version File
+ .python-version
+
+
+# GitHub Files For Conversations And Instructions
+ .github/conversations
+ .github/instructions
+
+
+# Large File Storage  Data
+data/

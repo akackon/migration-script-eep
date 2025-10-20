@@ -1,0 +1,1304 @@
+================================================================================
+COLUMN LIST FOR ALL CSV FILES IN data/
+Generated: 2025-10-20 11:46:04
+================================================================================
+
+1. All Product Data Back Up 070825.csv
+--------------------------------------------------------------------------------
+Total columns: 156
+
+    1. SKU (Unique Id)
+    2. Wholesale Price
+    3. Retail Price
+    4. Interiors Price
+    5. DTC P&P Price
+    6. PIM Parent ID
+    7. PIM Unique ID
+    8. Unbxd Primary Image URL (productImage)
+    9. B2B-BC PIM Internal Name Search Field
+   10. B2B-BC PIM Internal ID Search Field
+   11. PIM Internal Name Search Field
+   12. PIM Internal Search Field
+   13. PIM Internal Name
+   14. B2B-BC Pim Internal Name
+   15. Weight
+   16. Product Type
+   17. Orientation
+   18. Primary Colour
+   19. Secondary Colour
+   20. Depth
+   21. Name (productName)
+   22. Keywords
+   23. Height
+   24. Artist
+   25. Width
+   26. EAN
+   27. SKU (Parent ID) (parent_id)
+   28. Frame Style (Child only)
+   29. Print Size (Child only)
+   30. EAN Group
+   31. DTC Packed Weight
+   32. DTC Packed Height
+   33. DTC Packed Width
+   34. DTC Packed Depth
+   35. Set Size
+   36. Product Status
+   37. BC - Type
+   38. BC - Product Tax Code
+   39. BC - Unbxd Categories
+   40. BC - Option Set Display
+   41. BC - Open Graph Use Product Name
+   42. BC - Open Graph Use Image
+   43. BC - Open Graph Type
+   44. BC - Open Graph Use Meta Description
+   45. EEP Campaign Launch Date
+   46. EEP Campaign Name
+   47. BC-B2B - Page Title
+   48. BC-B2B - Shipping Group
+   49. BC-B2B - Visible?
+   50. BC-B2B - Meta Description
+   51. BC-B2B - Is Free Shipping
+   52. BC-B2B - Custom URL
+   53. BC-B2B - Sort Order
+   54. BC-B2B - Sale Price
+   55. BC-B2B - Is Price Hidden
+   56. BC-B2B - Featured
+   57. BC-B2B - Option Set Print Size
+   58. BC-B2B - Option Set Framing Options P&P
+   59. BC-B2B - Option Set ID
+   60. BC-B2B - Option Set - Frame Only
+   61. BC-B2B - Option Set Framing Options
+   62. BC-B2B - Option Set Packing Option
+   63. BC-B2B - SKU ID
+   64. BC-B2B - Product Internal Parent ID
+   65. BC-B2B - Product Internal SKU ID
+   66. BC-B2B - Description
+   67. BC-B2B - Purchasing Disabled
+   68. BC-B2B - Channel Status
+   69. BC-B2C - Sort Order
+   70. BC-B2C - Featured
+   71. BC-B2C - SKU
+   72. BC-B2C - Custom URL
+   73. BC-B2C - Description
+   74. BC-B2C - Is Price Hidden
+   75. BC-B2C - Sale Price
+   76. BC-B2C - Is Free Shipping
+   77. BC-B2C - Visible?
+   78. BC-B2C - Page Title
+   79. BC-B2C - Meta Description
+   80. BC-B2C - Option Set Framing Options
+   81. BC-B2C - Option Set ID
+   82. BC-B2C - Option Set - Frame Only
+   83. BC-B2C - SKU ID
+   84. BC-B2C - Option Set Print Size
+   85. BC-B2C - Product Internal SKU ID
+   86. BC-B2C - Product Internal Parent ID
+   87. BC-B2C - Purchasing Disabled
+   88. BC-B2C - Channel Status
+   89. BC - Image URL 1
+   90. BC - Image URL 16
+   91. BC - Image URL 10
+   92. BC - Image URL 9
+   93. BC - Image URL 8
+   94. BC - Image URL 11
+   95. BC - Image URL 4
+   96. BC - Image URL 6
+   97. BC - Image URL 15
+   98. BC - Image URL 14
+   99. BC - Image URL 20
+  100. BC - Image URL 2
+  101. BC - Image URL 17
+  102. BC - Image URL 18
+  103. BC - Image URL 13
+  104. BC - Image URL 3
+  105. BC - Image URL 7
+  106. BC - Image URL 5
+  107. BC - Image URL 19
+  108. BC - Image URL 12
+  109. BC - Is Thumbnail 4
+  110. BC - Is Thumbnail 15
+  111. BC - Image Description 7
+  112. BC - Image Description 13
+  113. BC - Is Thumbnail 10
+  114. BC - Is Thumbnail 6
+  115. BC - Image Description 5
+  116. BC - Image Description 12
+  117. BC - Image Description 17
+  118. BC - Image Description 11
+  119. BC - Is Thumbnail 8
+  120. BC - Is Thumbnail 19
+  121. BC - Is Thumbnail 11
+  122. BC - Image Description 14
+  123. BC - Image Description 10
+  124. BC - Image Description 4
+  125. BC - Image Description 16
+  126. BC - Image Description 6
+  127. BC - Is Thumbnail 17
+  128. BC - Image Description 9
+  129. BC - Image Description 3
+  130. BC - Is Thumbnail 18
+  131. BC - Image Description 2
+  132. BC - Is Thumbnail 5
+  133. BC - Image Description 15
+  134. BC - Image Description 8
+  135. BC - Is Thumbnail 16
+  136. BC - Is Thumbnail 13
+  137. BC - Is Thumbnail 2
+  138. BC - Is Thumbnail 7
+  139. BC - Image Description 19
+  140. BC - Is Thumbnail 14
+  141. BC - Image Description 1
+  142. BC - Is Thumbnail 9
+  143. BC - Is Thumbnail 12
+  144. BC - Is Thumbnail 3
+  145. BC - Is Thumbnail 1
+  146. BC - Image Description 18
+  147. BC - Is Thumbnail 20
+  148. BC - Image URL 21
+  149. BC - Image Description 20
+  150. BC - Image Description 21
+  151. BC - Is Thumbnail 21
+  152. Artist Royalty - Retail
+  153. Artist Royalty - Wholesale
+  154. Artist Royalty - Interiors
+  155. DTC P&P Cost
+  156. Distributors Price
+
+2. Cards.csv
+--------------------------------------------------------------------------------
+Total columns: 156
+
+    1. Name
+    2. SKU
+    3. Artist
+    4. PIM Unique ID
+    5. PIM Parent ID
+    6. Unbxd Primary Image URL
+    7. PIM Internal Name Search Field
+    8. PIM Internal Name
+    9. PIM Internal Search Field
+   10. B2B-BC Pim Internal Name
+   11. B2B-BC PIM Internal Name Search Field
+   12. B2B-BC PIM Internal ID Search Field
+   13. Product Status
+   14. Secondary Colour
+   15. Primary Colour
+   16. SKU (Parent ID)
+   17. Orientation
+   18. Product Type
+   19. Depth
+   20. Height
+   21. Width
+   22. Weight
+   23. Keywords
+   24. EAN
+   25. Frame Style (Child only)
+   26. Print Size (Child only)
+   27. EAN Group
+   28. DTC Packed Weight
+   29. DTC Packed Height
+   30. DTC Packed Width
+   31. DTC Packed Depth
+   32. Set Size
+   33. BC - Product Tax Code
+   34. BC - Type
+   35. BC - Open Graph Use Meta Description
+   36. BC - Open Graph Type
+   37. BC - Option Set Display
+   38. BC - Open Graph Use Product Name
+   39. BC - Open Graph Use Image
+   40. BC - Unbxd Categories
+   41. EEP Campaign Name
+   42. EEP Campaign Launch Date
+   43. BC-B2B - Channel Status
+   44. BC-B2B - Meta Description
+   45. BC-B2B - Option Set Packing Option
+   46. BC-B2B - Option Set Framing Options
+   47. BC-B2B - Option Set Framing Options P&P
+   48. BC-B2B - Option Set - Frame Only
+   49. BC-B2B - Option Set Print Size
+   50. BC-B2B - Purchasing Disabled
+   51. BC-B2B - Visible?
+   52. BC-B2B - Featured
+   53. BC-B2B - Is Price Hidden
+   54. BC-B2B - Is Free Shipping
+   55. BC-B2B - Shipping Group
+   56. BC-B2B - Sort Order
+   57. BC-B2B - SKU ID
+   58. BC-B2B - Option Set ID
+   59. BC-B2B - Description
+   60. BC-B2B - Sale Price
+   61. BC-B2B - Product Internal Parent ID
+   62. BC-B2B - Product Internal SKU ID
+   63. BC-B2B - Page Title
+   64. BC-B2B - Custom URL
+   65. BC-B2C - Channel Status
+   66. BC-B2C - Meta Description
+   67. BC-B2C - Option Set - Frame Only
+   68. BC-B2C - Option Set Framing Options
+   69. BC-B2C - Option Set Print Size
+   70. BC-B2C - SKU ID
+   71. BC-B2C - Purchasing Disabled
+   72. BC-B2C - SKU
+   73. BC-B2C - Is Price Hidden
+   74. BC-B2C - Featured
+   75. BC-B2C - Visible?
+   76. BC-B2C - Is Free Shipping
+   77. BC-B2C - Description
+   78. BC-B2C - Option Set ID
+   79. BC-B2C - Sort Order
+   80. BC-B2C - Page Title
+   81. BC-B2C - Product Internal Parent ID
+   82. BC-B2C - Product Internal SKU ID
+   83. BC-B2C - Sale Price
+   84. BC-B2C - Custom URL
+   85. Distributors Price
+   86. Artist Royalty - Retail
+   87. Artist Royalty - Wholesale
+   88. Artist Royalty - Interiors
+   89. Retail Price
+   90. Wholesale Price
+   91. Interiors Price
+   92. DTC P&P Cost
+   93. DTC P&P Price
+   94. BC - Is Thumbnail 4
+   95. BC - Is Thumbnail 19
+   96. BC - Is Thumbnail 8
+   97. BC - Is Thumbnail 15
+   98. BC - Is Thumbnail 14
+   99. BC - Is Thumbnail 5
+  100. BC - Is Thumbnail 3
+  101. BC - Is Thumbnail 7
+  102. BC - Is Thumbnail 18
+  103. BC - Is Thumbnail 20
+  104. BC - Is Thumbnail 2
+  105. BC - Is Thumbnail 21
+  106. BC - Is Thumbnail 13
+  107. BC - Is Thumbnail 12
+  108. BC - Is Thumbnail 16
+  109. BC - Is Thumbnail 9
+  110. BC - Is Thumbnail 1
+  111. BC - Is Thumbnail 17
+  112. BC - Is Thumbnail 11
+  113. BC - Is Thumbnail 6
+  114. BC - Is Thumbnail 10
+  115. BC - Image URL 9
+  116. BC - Image URL 8
+  117. BC - Image URL 11
+  118. BC - Image URL 15
+  119. BC - Image URL 14
+  120. BC - Image URL 20
+  121. BC - Image URL 18
+  122. BC - Image URL 13
+  123. BC - Image URL 6
+  124. BC - Image URL 1
+  125. BC - Image URL 10
+  126. BC - Image URL 2
+  127. BC - Image URL 4
+  128. BC - Image URL 7
+  129. BC - Image URL 5
+  130. BC - Image URL 16
+  131. BC - Image URL 17
+  132. BC - Image URL 3
+  133. BC - Image Description 13
+  134. BC - Image Description 7
+  135. BC - Image Description 5
+  136. BC - Image Description 12
+  137. BC - Image Description 16
+  138. BC - Image Description 10
+  139. BC - Image Description 17
+  140. BC - Image Description 15
+  141. BC - Image Description 9
+  142. BC - Image URL 12
+  143. BC - Image URL 19
+  144. BC - Image Description 4
+  145. BC - Image Description 8
+  146. BC - Image Description 2
+  147. BC - Image Description 1
+  148. BC - Image Description 14
+  149. BC - Image Description 6
+  150. BC - Image Description 3
+  151. BC - Image Description 19
+  152. BC - Image Description 11
+  153. BC - Image Description 18
+  154. BC - Image URL 21
+  155. BC - Image Description 20
+  156. BC - Image Description 21
+
+3. DAPs.csv
+--------------------------------------------------------------------------------
+Total columns: 156
+
+    1. Name
+    2. SKU
+    3. Artist
+    4. PIM Unique ID
+    5. PIM Parent ID
+    6. Unbxd Primary Image URL
+    7. PIM Internal Name Search Field
+    8. PIM Internal Name
+    9. PIM Internal Search Field
+   10. B2B-BC Pim Internal Name
+   11. B2B-BC PIM Internal Name Search Field
+   12. B2B-BC PIM Internal ID Search Field
+   13. Product Status
+   14. Secondary Colour
+   15. Primary Colour
+   16. SKU (Parent ID)
+   17. Orientation
+   18. Product Type
+   19. Depth
+   20. Height
+   21. Width
+   22. Weight
+   23. Keywords
+   24. EAN
+   25. Frame Style (Child only)
+   26. Print Size (Child only)
+   27. EAN Group
+   28. DTC Packed Weight
+   29. DTC Packed Height
+   30. DTC Packed Width
+   31. DTC Packed Depth
+   32. Set Size
+   33. BC - Product Tax Code
+   34. BC - Type
+   35. BC - Open Graph Use Meta Description
+   36. BC - Open Graph Type
+   37. BC - Option Set Display
+   38. BC - Open Graph Use Product Name
+   39. BC - Open Graph Use Image
+   40. BC - Unbxd Categories
+   41. EEP Campaign Name
+   42. EEP Campaign Launch Date
+   43. BC-B2B - Channel Status
+   44. BC-B2B - Meta Description
+   45. BC-B2B - Option Set Packing Option
+   46. BC-B2B - Option Set Framing Options
+   47. BC-B2B - Option Set Framing Options P&P
+   48. BC-B2B - Option Set - Frame Only
+   49. BC-B2B - Option Set Print Size
+   50. BC-B2B - Purchasing Disabled
+   51. BC-B2B - Visible?
+   52. BC-B2B - Featured
+   53. BC-B2B - Is Price Hidden
+   54. BC-B2B - Is Free Shipping
+   55. BC-B2B - Shipping Group
+   56. BC-B2B - Sort Order
+   57. BC-B2B - SKU ID
+   58. BC-B2B - Option Set ID
+   59. BC-B2B - Description
+   60. BC-B2B - Sale Price
+   61. BC-B2B - Product Internal Parent ID
+   62. BC-B2B - Product Internal SKU ID
+   63. BC-B2B - Page Title
+   64. BC-B2B - Custom URL
+   65. BC-B2C - Channel Status
+   66. BC-B2C - Meta Description
+   67. BC-B2C - Option Set - Frame Only
+   68. BC-B2C - Option Set Framing Options
+   69. BC-B2C - Option Set Print Size
+   70. BC-B2C - SKU ID
+   71. BC-B2C - Purchasing Disabled
+   72. BC-B2C - SKU
+   73. BC-B2C - Is Price Hidden
+   74. BC-B2C - Featured
+   75. BC-B2C - Visible?
+   76. BC-B2C - Is Free Shipping
+   77. BC-B2C - Description
+   78. BC-B2C - Option Set ID
+   79. BC-B2C - Sort Order
+   80. BC-B2C - Page Title
+   81. BC-B2C - Product Internal Parent ID
+   82. BC-B2C - Product Internal SKU ID
+   83. BC-B2C - Sale Price
+   84. BC-B2C - Custom URL
+   85. Distributors Price
+   86. Artist Royalty - Retail
+   87. Artist Royalty - Wholesale
+   88. Artist Royalty - Interiors
+   89. Retail Price
+   90. Wholesale Price
+   91. Interiors Price
+   92. DTC P&P Cost
+   93. DTC P&P Price
+   94. BC - Is Thumbnail 4
+   95. BC - Is Thumbnail 19
+   96. BC - Is Thumbnail 8
+   97. BC - Is Thumbnail 15
+   98. BC - Is Thumbnail 14
+   99. BC - Is Thumbnail 5
+  100. BC - Is Thumbnail 3
+  101. BC - Is Thumbnail 7
+  102. BC - Is Thumbnail 18
+  103. BC - Is Thumbnail 20
+  104. BC - Is Thumbnail 2
+  105. BC - Is Thumbnail 21
+  106. BC - Is Thumbnail 13
+  107. BC - Is Thumbnail 12
+  108. BC - Is Thumbnail 16
+  109. BC - Is Thumbnail 9
+  110. BC - Is Thumbnail 1
+  111. BC - Is Thumbnail 17
+  112. BC - Is Thumbnail 11
+  113. BC - Is Thumbnail 6
+  114. BC - Is Thumbnail 10
+  115. BC - Image URL 9
+  116. BC - Image URL 8
+  117. BC - Image URL 11
+  118. BC - Image URL 15
+  119. BC - Image URL 14
+  120. BC - Image URL 20
+  121. BC - Image URL 18
+  122. BC - Image URL 13
+  123. BC - Image URL 6
+  124. BC - Image URL 1
+  125. BC - Image URL 10
+  126. BC - Image URL 2
+  127. BC - Image URL 4
+  128. BC - Image URL 7
+  129. BC - Image URL 5
+  130. BC - Image URL 16
+  131. BC - Image URL 17
+  132. BC - Image URL 3
+  133. BC - Image Description 13
+  134. BC - Image Description 7
+  135. BC - Image Description 5
+  136. BC - Image Description 12
+  137. BC - Image Description 16
+  138. BC - Image Description 10
+  139. BC - Image Description 17
+  140. BC - Image Description 15
+  141. BC - Image Description 9
+  142. BC - Image URL 12
+  143. BC - Image URL 19
+  144. BC - Image Description 4
+  145. BC - Image Description 8
+  146. BC - Image Description 2
+  147. BC - Image Description 1
+  148. BC - Image Description 14
+  149. BC - Image Description 6
+  150. BC - Image Description 3
+  151. BC - Image Description 19
+  152. BC - Image Description 11
+  153. BC - Image Description 18
+  154. BC - Image URL 21
+  155. BC - Image Description 20
+  156. BC - Image Description 21
+
+4. Editions.csv
+--------------------------------------------------------------------------------
+Total columns: 156
+
+    1. Name
+    2. SKU
+    3. Artist
+    4. PIM Unique ID
+    5. PIM Parent ID
+    6. Unbxd Primary Image URL
+    7. PIM Internal Name Search Field
+    8. PIM Internal Name
+    9. PIM Internal Search Field
+   10. B2B-BC Pim Internal Name
+   11. B2B-BC PIM Internal Name Search Field
+   12. B2B-BC PIM Internal ID Search Field
+   13. Product Status
+   14. Secondary Colour
+   15. Primary Colour
+   16. SKU (Parent ID)
+   17. Orientation
+   18. Product Type
+   19. Depth
+   20. Height
+   21. Width
+   22. Weight
+   23. Keywords
+   24. EAN
+   25. Frame Style (Child only)
+   26. Print Size (Child only)
+   27. EAN Group
+   28. DTC Packed Weight
+   29. DTC Packed Height
+   30. DTC Packed Width
+   31. DTC Packed Depth
+   32. Set Size
+   33. BC - Product Tax Code
+   34. BC - Type
+   35. BC - Open Graph Use Meta Description
+   36. BC - Open Graph Type
+   37. BC - Option Set Display
+   38. BC - Open Graph Use Product Name
+   39. BC - Open Graph Use Image
+   40. BC - Unbxd Categories
+   41. EEP Campaign Name
+   42. EEP Campaign Launch Date
+   43. BC-B2B - Channel Status
+   44. BC-B2B - Meta Description
+   45. BC-B2B - Option Set Packing Option
+   46. BC-B2B - Option Set Framing Options
+   47. BC-B2B - Option Set Framing Options P&P
+   48. BC-B2B - Option Set - Frame Only
+   49. BC-B2B - Option Set Print Size
+   50. BC-B2B - Purchasing Disabled
+   51. BC-B2B - Visible?
+   52. BC-B2B - Featured
+   53. BC-B2B - Is Price Hidden
+   54. BC-B2B - Is Free Shipping
+   55. BC-B2B - Shipping Group
+   56. BC-B2B - Sort Order
+   57. BC-B2B - SKU ID
+   58. BC-B2B - Option Set ID
+   59. BC-B2B - Description
+   60. BC-B2B - Sale Price
+   61. BC-B2B - Product Internal Parent ID
+   62. BC-B2B - Product Internal SKU ID
+   63. BC-B2B - Page Title
+   64. BC-B2B - Custom URL
+   65. BC-B2C - Channel Status
+   66. BC-B2C - Meta Description
+   67. BC-B2C - Option Set - Frame Only
+   68. BC-B2C - Option Set Framing Options
+   69. BC-B2C - Option Set Print Size
+   70. BC-B2C - SKU ID
+   71. BC-B2C - Purchasing Disabled
+   72. BC-B2C - SKU
+   73. BC-B2C - Is Price Hidden
+   74. BC-B2C - Featured
+   75. BC-B2C - Visible?
+   76. BC-B2C - Is Free Shipping
+   77. BC-B2C - Description
+   78. BC-B2C - Option Set ID
+   79. BC-B2C - Sort Order
+   80. BC-B2C - Page Title
+   81. BC-B2C - Product Internal Parent ID
+   82. BC-B2C - Product Internal SKU ID
+   83. BC-B2C - Sale Price
+   84. BC-B2C - Custom URL
+   85. Distributors Price
+   86. Artist Royalty - Retail
+   87. Artist Royalty - Wholesale
+   88. Artist Royalty - Interiors
+   89. Retail Price
+   90. Wholesale Price
+   91. Interiors Price
+   92. DTC P&P Cost
+   93. DTC P&P Price
+   94. BC - Is Thumbnail 4
+   95. BC - Is Thumbnail 19
+   96. BC - Is Thumbnail 8
+   97. BC - Is Thumbnail 15
+   98. BC - Is Thumbnail 14
+   99. BC - Is Thumbnail 5
+  100. BC - Is Thumbnail 3
+  101. BC - Is Thumbnail 7
+  102. BC - Is Thumbnail 18
+  103. BC - Is Thumbnail 20
+  104. BC - Is Thumbnail 2
+  105. BC - Is Thumbnail 21
+  106. BC - Is Thumbnail 13
+  107. BC - Is Thumbnail 12
+  108. BC - Is Thumbnail 16
+  109. BC - Is Thumbnail 9
+  110. BC - Is Thumbnail 1
+  111. BC - Is Thumbnail 17
+  112. BC - Is Thumbnail 11
+  113. BC - Is Thumbnail 6
+  114. BC - Is Thumbnail 10
+  115. BC - Image URL 9
+  116. BC - Image URL 8
+  117. BC - Image URL 11
+  118. BC - Image URL 15
+  119. BC - Image URL 14
+  120. BC - Image URL 20
+  121. BC - Image URL 18
+  122. BC - Image URL 13
+  123. BC - Image URL 6
+  124. BC - Image URL 1
+  125. BC - Image URL 10
+  126. BC - Image URL 2
+  127. BC - Image URL 4
+  128. BC - Image URL 7
+  129. BC - Image URL 5
+  130. BC - Image URL 16
+  131. BC - Image URL 17
+  132. BC - Image URL 3
+  133. BC - Image Description 13
+  134. BC - Image Description 7
+  135. BC - Image Description 5
+  136. BC - Image Description 12
+  137. BC - Image Description 16
+  138. BC - Image Description 10
+  139. BC - Image Description 17
+  140. BC - Image Description 15
+  141. BC - Image Description 9
+  142. BC - Image URL 12
+  143. BC - Image URL 19
+  144. BC - Image Description 4
+  145. BC - Image Description 8
+  146. BC - Image Description 2
+  147. BC - Image Description 1
+  148. BC - Image Description 14
+  149. BC - Image Description 6
+  150. BC - Image Description 3
+  151. BC - Image Description 19
+  152. BC - Image Description 11
+  153. BC - Image Description 18
+  154. BC - Image URL 21
+  155. BC - Image Description 20
+  156. BC - Image Description 21
+
+5. Frames.csv
+--------------------------------------------------------------------------------
+Total columns: 156
+
+    1. Name
+    2. SKU
+    3. Artist
+    4. PIM Unique ID
+    5. PIM Parent ID
+    6. Unbxd Primary Image URL
+    7. PIM Internal Name Search Field
+    8. PIM Internal Name
+    9. PIM Internal Search Field
+   10. B2B-BC Pim Internal Name
+   11. B2B-BC PIM Internal Name Search Field
+   12. B2B-BC PIM Internal ID Search Field
+   13. Product Status
+   14. Secondary Colour
+   15. Primary Colour
+   16. SKU (Parent ID)
+   17. Orientation
+   18. Product Type
+   19. Depth
+   20. Height
+   21. Width
+   22. Weight
+   23. Keywords
+   24. EAN
+   25. Frame Style (Child only)
+   26. Print Size (Child only)
+   27. EAN Group
+   28. DTC Packed Weight
+   29. DTC Packed Height
+   30. DTC Packed Width
+   31. DTC Packed Depth
+   32. Set Size
+   33. BC - Product Tax Code
+   34. BC - Type
+   35. BC - Open Graph Use Meta Description
+   36. BC - Open Graph Type
+   37. BC - Option Set Display
+   38. BC - Open Graph Use Product Name
+   39. BC - Open Graph Use Image
+   40. BC - Unbxd Categories
+   41. EEP Campaign Name
+   42. EEP Campaign Launch Date
+   43. BC-B2B - Channel Status
+   44. BC-B2B - Meta Description
+   45. BC-B2B - Option Set Packing Option
+   46. BC-B2B - Option Set Framing Options
+   47. BC-B2B - Option Set Framing Options P&P
+   48. BC-B2B - Option Set - Frame Only
+   49. BC-B2B - Option Set Print Size
+   50. BC-B2B - Purchasing Disabled
+   51. BC-B2B - Visible?
+   52. BC-B2B - Featured
+   53. BC-B2B - Is Price Hidden
+   54. BC-B2B - Is Free Shipping
+   55. BC-B2B - Shipping Group
+   56. BC-B2B - Sort Order
+   57. BC-B2B - SKU ID
+   58. BC-B2B - Option Set ID
+   59. BC-B2B - Description
+   60. BC-B2B - Sale Price
+   61. BC-B2B - Product Internal Parent ID
+   62. BC-B2B - Product Internal SKU ID
+   63. BC-B2B - Page Title
+   64. BC-B2B - Custom URL
+   65. BC-B2C - Channel Status
+   66. BC-B2C - Meta Description
+   67. BC-B2C - Option Set - Frame Only
+   68. BC-B2C - Option Set Framing Options
+   69. BC-B2C - Option Set Print Size
+   70. BC-B2C - SKU ID
+   71. BC-B2C - Purchasing Disabled
+   72. BC-B2C - SKU
+   73. BC-B2C - Is Price Hidden
+   74. BC-B2C - Featured
+   75. BC-B2C - Visible?
+   76. BC-B2C - Is Free Shipping
+   77. BC-B2C - Description
+   78. BC-B2C - Option Set ID
+   79. BC-B2C - Sort Order
+   80. BC-B2C - Page Title
+   81. BC-B2C - Product Internal Parent ID
+   82. BC-B2C - Product Internal SKU ID
+   83. BC-B2C - Sale Price
+   84. BC-B2C - Custom URL
+   85. Distributors Price
+   86. Artist Royalty - Retail
+   87. Artist Royalty - Wholesale
+   88. Artist Royalty - Interiors
+   89. Retail Price
+   90. Wholesale Price
+   91. Interiors Price
+   92. DTC P&P Cost
+   93. DTC P&P Price
+   94. BC - Is Thumbnail 4
+   95. BC - Is Thumbnail 19
+   96. BC - Is Thumbnail 8
+   97. BC - Is Thumbnail 15
+   98. BC - Is Thumbnail 14
+   99. BC - Is Thumbnail 5
+  100. BC - Is Thumbnail 3
+  101. BC - Is Thumbnail 7
+  102. BC - Is Thumbnail 18
+  103. BC - Is Thumbnail 20
+  104. BC - Is Thumbnail 2
+  105. BC - Is Thumbnail 21
+  106. BC - Is Thumbnail 13
+  107. BC - Is Thumbnail 12
+  108. BC - Is Thumbnail 16
+  109. BC - Is Thumbnail 9
+  110. BC - Is Thumbnail 1
+  111. BC - Is Thumbnail 17
+  112. BC - Is Thumbnail 11
+  113. BC - Is Thumbnail 6
+  114. BC - Is Thumbnail 10
+  115. BC - Image URL 9
+  116. BC - Image URL 8
+  117. BC - Image URL 11
+  118. BC - Image URL 15
+  119. BC - Image URL 14
+  120. BC - Image URL 20
+  121. BC - Image URL 18
+  122. BC - Image URL 13
+  123. BC - Image URL 6
+  124. BC - Image URL 1
+  125. BC - Image URL 10
+  126. BC - Image URL 2
+  127. BC - Image URL 4
+  128. BC - Image URL 7
+  129. BC - Image URL 5
+  130. BC - Image URL 16
+  131. BC - Image URL 17
+  132. BC - Image URL 3
+  133. BC - Image Description 13
+  134. BC - Image Description 7
+  135. BC - Image Description 5
+  136. BC - Image Description 12
+  137. BC - Image Description 16
+  138. BC - Image Description 10
+  139. BC - Image Description 17
+  140. BC - Image Description 15
+  141. BC - Image Description 9
+  142. BC - Image URL 12
+  143. BC - Image URL 19
+  144. BC - Image Description 4
+  145. BC - Image Description 8
+  146. BC - Image Description 2
+  147. BC - Image Description 1
+  148. BC - Image Description 14
+  149. BC - Image Description 6
+  150. BC - Image Description 3
+  151. BC - Image Description 19
+  152. BC - Image Description 11
+  153. BC - Image Description 18
+  154. BC - Image URL 21
+  155. BC - Image Description 20
+  156. BC - Image Description 21
+
+6. GWS.csv
+--------------------------------------------------------------------------------
+Total columns: 156
+
+    1. Name
+    2. SKU
+    3. Artist
+    4. PIM Unique ID
+    5. PIM Parent ID
+    6. Unbxd Primary Image URL
+    7. PIM Internal Name Search Field
+    8. PIM Internal Name
+    9. PIM Internal Search Field
+   10. B2B-BC Pim Internal Name
+   11. B2B-BC PIM Internal Name Search Field
+   12. B2B-BC PIM Internal ID Search Field
+   13. Product Status
+   14. Secondary Colour
+   15. Primary Colour
+   16. SKU (Parent ID)
+   17. Orientation
+   18. Product Type
+   19. Depth
+   20. Height
+   21. Width
+   22. Weight
+   23. Keywords
+   24. EAN
+   25. Frame Style (Child only)
+   26. Print Size (Child only)
+   27. EAN Group
+   28. DTC Packed Weight
+   29. DTC Packed Height
+   30. DTC Packed Width
+   31. DTC Packed Depth
+   32. Set Size
+   33. BC - Product Tax Code
+   34. BC - Type
+   35. BC - Open Graph Use Meta Description
+   36. BC - Open Graph Type
+   37. BC - Option Set Display
+   38. BC - Open Graph Use Product Name
+   39. BC - Open Graph Use Image
+   40. BC - Unbxd Categories
+   41. EEP Campaign Name
+   42. EEP Campaign Launch Date
+   43. BC-B2B - Channel Status
+   44. BC-B2B - Meta Description
+   45. BC-B2B - Option Set Packing Option
+   46. BC-B2B - Option Set Framing Options
+   47. BC-B2B - Option Set Framing Options P&P
+   48. BC-B2B - Option Set - Frame Only
+   49. BC-B2B - Option Set Print Size
+   50. BC-B2B - Purchasing Disabled
+   51. BC-B2B - Visible?
+   52. BC-B2B - Featured
+   53. BC-B2B - Is Price Hidden
+   54. BC-B2B - Is Free Shipping
+   55. BC-B2B - Shipping Group
+   56. BC-B2B - Sort Order
+   57. BC-B2B - SKU ID
+   58. BC-B2B - Option Set ID
+   59. BC-B2B - Description
+   60. BC-B2B - Sale Price
+   61. BC-B2B - Product Internal Parent ID
+   62. BC-B2B - Product Internal SKU ID
+   63. BC-B2B - Page Title
+   64. BC-B2B - Custom URL
+   65. BC-B2C - Channel Status
+   66. BC-B2C - Meta Description
+   67. BC-B2C - Option Set - Frame Only
+   68. BC-B2C - Option Set Framing Options
+   69. BC-B2C - Option Set Print Size
+   70. BC-B2C - SKU ID
+   71. BC-B2C - Purchasing Disabled
+   72. BC-B2C - SKU
+   73. BC-B2C - Is Price Hidden
+   74. BC-B2C - Featured
+   75. BC-B2C - Visible?
+   76. BC-B2C - Is Free Shipping
+   77. BC-B2C - Description
+   78. BC-B2C - Option Set ID
+   79. BC-B2C - Sort Order
+   80. BC-B2C - Page Title
+   81. BC-B2C - Product Internal Parent ID
+   82. BC-B2C - Product Internal SKU ID
+   83. BC-B2C - Sale Price
+   84. BC-B2C - Custom URL
+   85. Distributors Price
+   86. Artist Royalty - Retail
+   87. Artist Royalty - Wholesale
+   88. Artist Royalty - Interiors
+   89. Retail Price
+   90. Wholesale Price
+   91. Interiors Price
+   92. DTC P&P Cost
+   93. DTC P&P Price
+   94. BC - Is Thumbnail 4
+   95. BC - Is Thumbnail 19
+   96. BC - Is Thumbnail 8
+   97. BC - Is Thumbnail 15
+   98. BC - Is Thumbnail 14
+   99. BC - Is Thumbnail 5
+  100. BC - Is Thumbnail 3
+  101. BC - Is Thumbnail 7
+  102. BC - Is Thumbnail 18
+  103. BC - Is Thumbnail 20
+  104. BC - Is Thumbnail 2
+  105. BC - Is Thumbnail 21
+  106. BC - Is Thumbnail 13
+  107. BC - Is Thumbnail 12
+  108. BC - Is Thumbnail 16
+  109. BC - Is Thumbnail 9
+  110. BC - Is Thumbnail 1
+  111. BC - Is Thumbnail 17
+  112. BC - Is Thumbnail 11
+  113. BC - Is Thumbnail 6
+  114. BC - Is Thumbnail 10
+  115. BC - Image URL 9
+  116. BC - Image URL 8
+  117. BC - Image URL 11
+  118. BC - Image URL 15
+  119. BC - Image URL 14
+  120. BC - Image URL 20
+  121. BC - Image URL 18
+  122. BC - Image URL 13
+  123. BC - Image URL 6
+  124. BC - Image URL 1
+  125. BC - Image URL 10
+  126. BC - Image URL 2
+  127. BC - Image URL 4
+  128. BC - Image URL 7
+  129. BC - Image URL 5
+  130. BC - Image URL 16
+  131. BC - Image URL 17
+  132. BC - Image URL 3
+  133. BC - Image Description 13
+  134. BC - Image Description 7
+  135. BC - Image Description 5
+  136. BC - Image Description 12
+  137. BC - Image Description 16
+  138. BC - Image Description 10
+  139. BC - Image Description 17
+  140. BC - Image Description 15
+  141. BC - Image Description 9
+  142. BC - Image URL 12
+  143. BC - Image URL 19
+  144. BC - Image Description 4
+  145. BC - Image Description 8
+  146. BC - Image Description 2
+  147. BC - Image Description 1
+  148. BC - Image Description 14
+  149. BC - Image Description 6
+  150. BC - Image Description 3
+  151. BC - Image Description 19
+  152. BC - Image Description 11
+  153. BC - Image Description 18
+  154. BC - Image URL 21
+  155. BC - Image Description 20
+  156. BC - Image Description 21
+
+7. Misc.csv
+--------------------------------------------------------------------------------
+Total columns: 156
+
+    1. Name
+    2. SKU
+    3. Artist
+    4. PIM Unique ID
+    5. PIM Parent ID
+    6. Unbxd Primary Image URL
+    7. PIM Internal Name Search Field
+    8. PIM Internal Name
+    9. PIM Internal Search Field
+   10. B2B-BC Pim Internal Name
+   11. B2B-BC PIM Internal Name Search Field
+   12. B2B-BC PIM Internal ID Search Field
+   13. Product Status
+   14. Secondary Colour
+   15. Primary Colour
+   16. SKU (Parent ID)
+   17. Orientation
+   18. Product Type
+   19. Depth
+   20. Height
+   21. Width
+   22. Weight
+   23. Keywords
+   24. EAN
+   25. Frame Style (Child only)
+   26. Print Size (Child only)
+   27. EAN Group
+   28. DTC Packed Weight
+   29. DTC Packed Height
+   30. DTC Packed Width
+   31. DTC Packed Depth
+   32. Set Size
+   33. BC - Product Tax Code
+   34. BC - Type
+   35. BC - Open Graph Use Meta Description
+   36. BC - Open Graph Type
+   37. BC - Option Set Display
+   38. BC - Open Graph Use Product Name
+   39. BC - Open Graph Use Image
+   40. BC - Unbxd Categories
+   41. EEP Campaign Name
+   42. EEP Campaign Launch Date
+   43. BC-B2B - Channel Status
+   44. BC-B2B - Meta Description
+   45. BC-B2B - Option Set Packing Option
+   46. BC-B2B - Option Set Framing Options
+   47. BC-B2B - Option Set Framing Options P&P
+   48. BC-B2B - Option Set - Frame Only
+   49. BC-B2B - Option Set Print Size
+   50. BC-B2B - Purchasing Disabled
+   51. BC-B2B - Visible?
+   52. BC-B2B - Featured
+   53. BC-B2B - Is Price Hidden
+   54. BC-B2B - Is Free Shipping
+   55. BC-B2B - Shipping Group
+   56. BC-B2B - Sort Order
+   57. BC-B2B - SKU ID
+   58. BC-B2B - Option Set ID
+   59. BC-B2B - Description
+   60. BC-B2B - Sale Price
+   61. BC-B2B - Product Internal Parent ID
+   62. BC-B2B - Product Internal SKU ID
+   63. BC-B2B - Page Title
+   64. BC-B2B - Custom URL
+   65. BC-B2C - Channel Status
+   66. BC-B2C - Meta Description
+   67. BC-B2C - Option Set - Frame Only
+   68. BC-B2C - Option Set Framing Options
+   69. BC-B2C - Option Set Print Size
+   70. BC-B2C - SKU ID
+   71. BC-B2C - Purchasing Disabled
+   72. BC-B2C - SKU
+   73. BC-B2C - Is Price Hidden
+   74. BC-B2C - Featured
+   75. BC-B2C - Visible?
+   76. BC-B2C - Is Free Shipping
+   77. BC-B2C - Description
+   78. BC-B2C - Option Set ID
+   79. BC-B2C - Sort Order
+   80. BC-B2C - Page Title
+   81. BC-B2C - Product Internal Parent ID
+   82. BC-B2C - Product Internal SKU ID
+   83. BC-B2C - Sale Price
+   84. BC-B2C - Custom URL
+   85. Distributors Price
+   86. Artist Royalty - Retail
+   87. Artist Royalty - Wholesale
+   88. Artist Royalty - Interiors
+   89. Retail Price
+   90. Wholesale Price
+   91. Interiors Price
+   92. DTC P&P Cost
+   93. DTC P&P Price
+   94. BC - Is Thumbnail 4
+   95. BC - Is Thumbnail 19
+   96. BC - Is Thumbnail 8
+   97. BC - Is Thumbnail 15
+   98. BC - Is Thumbnail 14
+   99. BC - Is Thumbnail 5
+  100. BC - Is Thumbnail 3
+  101. BC - Is Thumbnail 7
+  102. BC - Is Thumbnail 18
+  103. BC - Is Thumbnail 20
+  104. BC - Is Thumbnail 2
+  105. BC - Is Thumbnail 21
+  106. BC - Is Thumbnail 13
+  107. BC - Is Thumbnail 12
+  108. BC - Is Thumbnail 16
+  109. BC - Is Thumbnail 9
+  110. BC - Is Thumbnail 1
+  111. BC - Is Thumbnail 17
+  112. BC - Is Thumbnail 11
+  113. BC - Is Thumbnail 6
+  114. BC - Is Thumbnail 10
+  115. BC - Image URL 9
+  116. BC - Image URL 8
+  117. BC - Image URL 11
+  118. BC - Image URL 15
+  119. BC - Image URL 14
+  120. BC - Image URL 20
+  121. BC - Image URL 18
+  122. BC - Image URL 13
+  123. BC - Image URL 6
+  124. BC - Image URL 1
+  125. BC - Image URL 10
+  126. BC - Image URL 2
+  127. BC - Image URL 4
+  128. BC - Image URL 7
+  129. BC - Image URL 5
+  130. BC - Image URL 16
+  131. BC - Image URL 17
+  132. BC - Image URL 3
+  133. BC - Image Description 13
+  134. BC - Image Description 7
+  135. BC - Image Description 5
+  136. BC - Image Description 12
+  137. BC - Image Description 16
+  138. BC - Image Description 10
+  139. BC - Image Description 17
+  140. BC - Image Description 15
+  141. BC - Image Description 9
+  142. BC - Image URL 12
+  143. BC - Image URL 19
+  144. BC - Image Description 4
+  145. BC - Image Description 8
+  146. BC - Image Description 2
+  147. BC - Image Description 1
+  148. BC - Image Description 14
+  149. BC - Image Description 6
+  150. BC - Image Description 3
+  151. BC - Image Description 19
+  152. BC - Image Description 11
+  153. BC - Image Description 18
+  154. BC - Image URL 21
+  155. BC - Image Description 20
+  156. BC - Image Description 21
+
+8. Postcards.csv
+--------------------------------------------------------------------------------
+Total columns: 156
+
+    1. Name
+    2. SKU
+    3. Artist
+    4. PIM Unique ID
+    5. PIM Parent ID
+    6. Unbxd Primary Image URL
+    7. PIM Internal Name Search Field
+    8. PIM Internal Name
+    9. PIM Internal Search Field
+   10. B2B-BC Pim Internal Name
+   11. B2B-BC PIM Internal Name Search Field
+   12. B2B-BC PIM Internal ID Search Field
+   13. Product Status
+   14. Secondary Colour
+   15. Primary Colour
+   16. SKU (Parent ID)
+   17. Orientation
+   18. Product Type
+   19. Depth
+   20. Height
+   21. Width
+   22. Weight
+   23. Keywords
+   24. EAN
+   25. Frame Style (Child only)
+   26. Print Size (Child only)
+   27. EAN Group
+   28. DTC Packed Weight
+   29. DTC Packed Height
+   30. DTC Packed Width
+   31. DTC Packed Depth
+   32. Set Size
+   33. BC - Product Tax Code
+   34. BC - Type
+   35. BC - Open Graph Use Meta Description
+   36. BC - Open Graph Type
+   37. BC - Option Set Display
+   38. BC - Open Graph Use Product Name
+   39. BC - Open Graph Use Image
+   40. BC - Unbxd Categories
+   41. EEP Campaign Name
+   42. EEP Campaign Launch Date
+   43. BC-B2B - Channel Status
+   44. BC-B2B - Meta Description
+   45. BC-B2B - Option Set Packing Option
+   46. BC-B2B - Option Set Framing Options
+   47. BC-B2B - Option Set Framing Options P&P
+   48. BC-B2B - Option Set - Frame Only
+   49. BC-B2B - Option Set Print Size
+   50. BC-B2B - Purchasing Disabled
+   51. BC-B2B - Visible?
+   52. BC-B2B - Featured
+   53. BC-B2B - Is Price Hidden
+   54. BC-B2B - Is Free Shipping
+   55. BC-B2B - Shipping Group
+   56. BC-B2B - Sort Order
+   57. BC-B2B - SKU ID
+   58. BC-B2B - Option Set ID
+   59. BC-B2B - Description
+   60. BC-B2B - Sale Price
+   61. BC-B2B - Product Internal Parent ID
+   62. BC-B2B - Product Internal SKU ID
+   63. BC-B2B - Page Title
+   64. BC-B2B - Custom URL
+   65. BC-B2C - Channel Status
+   66. BC-B2C - Meta Description
+   67. BC-B2C - Option Set - Frame Only
+   68. BC-B2C - Option Set Framing Options
+   69. BC-B2C - Option Set Print Size
+   70. BC-B2C - SKU ID
+   71. BC-B2C - Purchasing Disabled
+   72. BC-B2C - SKU
+   73. BC-B2C - Is Price Hidden
+   74. BC-B2C - Featured
+   75. BC-B2C - Visible?
+   76. BC-B2C - Is Free Shipping
+   77. BC-B2C - Description
+   78. BC-B2C - Option Set ID
+   79. BC-B2C - Sort Order
+   80. BC-B2C - Page Title
+   81. BC-B2C - Product Internal Parent ID
+   82. BC-B2C - Product Internal SKU ID
+   83. BC-B2C - Sale Price
+   84. BC-B2C - Custom URL
+   85. Distributors Price
+   86. Artist Royalty - Retail
+   87. Artist Royalty - Wholesale
+   88. Artist Royalty - Interiors
+   89. Retail Price
+   90. Wholesale Price
+   91. Interiors Price
+   92. DTC P&P Cost
+   93. DTC P&P Price
+   94. BC - Is Thumbnail 4
+   95. BC - Is Thumbnail 19
+   96. BC - Is Thumbnail 8
+   97. BC - Is Thumbnail 15
+   98. BC - Is Thumbnail 14
+   99. BC - Is Thumbnail 5
+  100. BC - Is Thumbnail 3
+  101. BC - Is Thumbnail 7
+  102. BC - Is Thumbnail 18
+  103. BC - Is Thumbnail 20
+  104. BC - Is Thumbnail 2
+  105. BC - Is Thumbnail 21
+  106. BC - Is Thumbnail 13
+  107. BC - Is Thumbnail 12
+  108. BC - Is Thumbnail 16
+  109. BC - Is Thumbnail 9
+  110. BC - Is Thumbnail 1
+  111. BC - Is Thumbnail 17
+  112. BC - Is Thumbnail 11
+  113. BC - Is Thumbnail 6
+  114. BC - Is Thumbnail 10
+  115. BC - Image URL 9
+  116. BC - Image URL 8
+  117. BC - Image URL 11
+  118. BC - Image URL 15
+  119. BC - Image URL 14
+  120. BC - Image URL 20
+  121. BC - Image URL 18
+  122. BC - Image URL 13
+  123. BC - Image URL 6
+  124. BC - Image URL 1
+  125. BC - Image URL 10
+  126. BC - Image URL 2
+  127. BC - Image URL 4
+  128. BC - Image URL 7
+  129. BC - Image URL 5
+  130. BC - Image URL 16
+  131. BC - Image URL 17
+  132. BC - Image URL 3
+  133. BC - Image Description 13
+  134. BC - Image Description 7
+  135. BC - Image Description 5
+  136. BC - Image Description 12
+  137. BC - Image Description 16
+  138. BC - Image Description 10
+  139. BC - Image Description 17
+  140. BC - Image Description 15
+  141. BC - Image Description 9
+  142. BC - Image URL 12
+  143. BC - Image URL 19
+  144. BC - Image Description 4
+  145. BC - Image Description 8
+  146. BC - Image Description 2
+  147. BC - Image Description 1
+  148. BC - Image Description 14
+  149. BC - Image Description 6
+  150. BC - Image Description 3
+  151. BC - Image Description 19
+  152. BC - Image Description 11
+  153. BC - Image Description 18
+  154. BC - Image URL 21
+  155. BC - Image Description 20
+  156. BC - Image Description 21
+
+================================================================================
+SUMMARY
+================================================================================
+All Product Data Back Up 070825.csv           : 156 columns
+Cards.csv                                     : 156 columns
+DAPs.csv                                      : 156 columns
+Editions.csv                                  : 156 columns
+Frames.csv                                    : 156 columns
+GWS.csv                                       : 156 columns
+Misc.csv                                      : 156 columns
+Postcards.csv                                 : 156 columns

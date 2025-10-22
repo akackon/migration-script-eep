@@ -81,9 +81,8 @@ This document provides a comprehensive overview of all available schemas, their 
 
 | Field Name | Type | Description | Validation |
 |------------|------|-------------|------------|
-| `ean_number` | string | EAN barcode number | |
-| `ean_type` | enumeration | Type of EAN barcode | Options: "EAN-13", "EAN-8", Default: "EAN-13" |
 | `ean_group` | string | EAN group identifier | |
+| `ean_type` | enumeration | Type of EAN barcode | Options: "EAN-13", "EAN-8", Default: "EAN-13" |
 | `product_variant` | relation | Associated product variant | oneToOne → `api::product-variant.product-variant` |
 
 ### 5. Manufacturer (`api::manufacturer.manufacturer`)
@@ -103,6 +102,8 @@ This document provides a comprehensive overview of all available schemas, their 
 | Field Name | Type | Description | Validation |
 |------------|------|-------------|------------|
 | `product_variants` | relation | Product variants using this material | manyToMany ↔ `api::product-variant.product-variant` |
+
+*Note: Material content type currently only contains the relationship field. Additional fields like material_name, material_description, etc. may need to be added for complete functionality.*
 
 ### 7. Product (`api::product.product`)
 
@@ -128,6 +129,8 @@ This document provides a comprehensive overview of all available schemas, their 
 | `secondary_colours` | relation | Secondary colors in artwork | manyToMany ↔ `api::colour.colour` |
 | `product_variants` | relation | Product variants | oneToMany → `api::product-variant.product-variant` |
 | `product_costs` | component | Product cost breakdown | `pricing.product-costs` |
+| `ean_number` | string | Product EAN number | |
+| `ean_group` | relation | EAN group reference | oneToOne → `api::ean.ean` |
 
 ### 8. Product Variant (`api::product-variant.product-variant`)
 
@@ -435,6 +438,7 @@ All content types follow standard Strapi REST API conventions. Base URL: `/api`
 /api/products?populate[product_variants][populate]=*
 /api/products?populate[product_primary_images]=*
 /api/products?populate[product_costs]=*
+/api/products?populate[ean_group]=*
 ```
 
 #### Product Variants (`/api/product-variants`)
@@ -703,7 +707,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ```javascript
 // Get all products with complete data
-const response = await fetch('/api/products?populate[artist]=*&populate[campaigns]=*&populate[primary_colours]=*&populate[secondary_colours]=*&populate[product_variants][populate][manufacturers]=*&populate[product_variants][populate][materials]=*&populate[product_variants][populate][ean]=*&populate[product_primary_images]=*&populate[product_costs]=*');
+const response = await fetch('/api/products?populate[artist]=*&populate[campaigns]=*&populate[primary_colours]=*&populate[secondary_colours]=*&populate[product_variants][populate][manufacturers]=*&populate[product_variants][populate][materials]=*&populate[product_variants][populate][ean]=*&populate[product_primary_images]=*&populate[product_costs]=*&populate[ean_group]=*');
 
 const data = await response.json();
 ```
@@ -720,7 +724,9 @@ const newProduct = {
     product_height_metres: 0.42,
     product_width_metres: 0.59,
     product_keywords: "abstract, landscape, modern art, digital print",
+    ean_number: "1234567890123",
     artist: 1, // Artist ID
+    ean_group: 1, // EAN group ID
     product_costs: {
       product_costs_wholesale_price: 15.00,
       product_costs_retail_price: 45.00,
@@ -837,6 +843,7 @@ async function fetchProducts() {
     "product_type": "Digital Art Print",
     "product_orientation": "Landscape",
     "product_weight_kg": 0.5,
+    "ean_number": "1234567890123",
     "createdAt": "2025-01-20T10:00:00.000Z",
     "updatedAt": "2025-01-20T10:00:00.000Z",
     "publishedAt": "2025-01-20T10:00:00.000Z",
@@ -845,6 +852,13 @@ async function fetchProducts() {
         "id": 1,
         "artist_name": "Vincent van Gogh",
         "artist_bio": "Post-impressionist painter..."
+      }
+    },
+    "ean_group": {
+      "data": {
+        "id": 1,
+        "ean_group": "123",
+        "ean_type": "EAN-13"
       }
     },
     "product_costs": {
